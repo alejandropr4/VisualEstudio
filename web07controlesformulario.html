@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Controles de formulario</h1>
+    <form>
+        <label>Introduzca un nombre</label>
+        <input type="text" name="cajanombre" required/>
+        <br/>
+        <label>Introduzca su edad</label>
+        <input type="range" name="rangoedad" min="18" max="80"/>
+        <br/>
+        <label>Introduzca su x</label>
+        <input type="checkbox" name="rangoedad"/> xxxxx
+        <br/>
+        <label>Introduzca sus deportes favoritos</label>
+        <select name="deportes" size="4" multiple>
+            <option value="petanca">Petanca</option>
+            <option value="basket">Baloncesto</option>
+            <option value="futbol">futbol</option>
+            <option value="curling">Curling</option>
+            <option value="canicas">Canicas</option>
+        </select>
+        <br/>
+        <button type="submit">
+            Enviar datos
+        </button>
+    </form>
+</body>
+</html>

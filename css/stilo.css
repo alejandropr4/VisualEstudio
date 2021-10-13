@@ -1,9 +1,9 @@
 h1{
-    background-color: blueviolet;
+    background-color: rgb(148, 148, 148);
 }
 img{
-    width: 80px;
-    height: 80px;
+    width: 300px;
+    height: 300px;
 }
 
 .imagenpque{
@@ -14,4 +14,9 @@ img{
 .tablalocura{
     color: orange; 
     background-color: orchid;
+}
+
+.insta{
+    width: 25px;
+    height: 25px;  
 }
